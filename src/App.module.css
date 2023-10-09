@@ -1,0 +1,15 @@
+/*Paleta de colores
+#07382A
+#62C3A8
+#16B88A
+#424A48
+#108463
+#FFFFFF
+*/
+.app{
+    /* background-size: cover; */
+    background-color:#62C3A8 ;
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
