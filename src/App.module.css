@@ -13,3 +13,7 @@
     min-width: 100vw;
 
 }
+.foto img{
+    background-color: aliceblue;
+    width: 600px;
+}

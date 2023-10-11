@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import ParticlesBackground from './components/ParticlesBackground'
 //importamos el estilo 
 import S from "../src/App.module.css"
-import image from "../Imagenes/WhatsApp Image 2023-09-20 at 12.33.20 PM.jpeg"
+import image from "../Imagenes/yo.png"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className={S.app}>
       <div className='Conteiner1'>
-        <div className='foto'>
+        <div className={S.foto}>
           <img src={image} alt="" />
         </div>
         <div className='datos'>
