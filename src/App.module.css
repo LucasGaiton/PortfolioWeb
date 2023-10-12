@@ -6,14 +6,3 @@
 #108463
 #FFFFFF
 */
-.app{
-    /* background-size: cover; */
-    background-color:#62C3A8 ;
-    min-height: 100vh;
-    min-width: 100vw;
-
-}
-.foto img{
-    background-color: aliceblue;
-    width: 600px;
-}

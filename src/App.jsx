@@ -1,28 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import ParticlesBackground from './components/ParticlesBackground'
+
 //importamos el estilo 
 import S from "../src/App.module.css"
-import image from "../Imagenes/yo.png"
+
+//Hooks 
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from "react";
+
+//importamos vistas 
+import Home from "./views/Home/Home";
+
+//importamos componentes 
+import Nav from "./components/Nav/Nav";
+import ParticlesBackground from './components/ParticlesBackground'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //use location
+  const location = useLocation()
 
   return (
     <div className={S.app}>
-      <div className='Conteiner1'>
-        <div className={S.foto}>
-          <img src={image} alt="" />
-        </div>
-        <div className='datos'>
-          <div className='titile'></div>
-          <div className='description'></div>
-        </div>
-      </div>
-      <div className='conteiner2'>
-        <div className='carrusel'></div>
-      </div>
+      <Nav></Nav>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+      </Routes>
+
+
+
+     
 
 
     </div>

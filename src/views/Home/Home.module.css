@@ -1,0 +1,45 @@
+/*Paleta de colores
+#07382A
+#62C3A8
+#16B88A
+#424A48
+#108463
+#FFFFFF
+*/
+.home{
+    /* background-size: cover; */
+    display: grid;
+    grid-template-rows: 50vh 1fr 1fr;
+    background-color:#62C3A8 ;
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
+.conteiner1{
+    margin-top: 2vh;
+    grid-row: 1;
+    display: flex;
+    width: 100%;
+
+}
+.foto{
+    width: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto img{
+
+    margin-top: 20px;
+    width: 50%;
+    height: 472px;
+    border-radius: 50%;
+}
+.datos{
+    width: 50%;
+}
+.conteiner2{
+    grid-row: 2;
+}
+
+
