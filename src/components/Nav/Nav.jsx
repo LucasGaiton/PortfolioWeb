@@ -11,6 +11,9 @@ export default function Nav(){
                 <Link>
                 <p>Proyectos</p>
                 </Link>
+                <Link>
+                <p>Contactame</p>
+                </Link>
 
 
             </div>

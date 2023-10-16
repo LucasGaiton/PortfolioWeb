@@ -6,3 +6,12 @@
 #108463
 #FFFFFF
 */
+.home{
+    /* background-size: cover; */
+    display: grid;
+    grid-template-rows: 50vh 1fr 1fr;
+    background-color:#62C3A8 ;
+    min-height: 100vh;
+    min-width: 100vw;
+
+}

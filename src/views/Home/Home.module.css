@@ -9,17 +9,19 @@
 .home{
     /* background-size: cover; */
     display: grid;
-    grid-template-rows: 50vh 1fr 1fr;
+    grid-template-rows:auto auto;
     background-color:#62C3A8 ;
     min-height: 100vh;
     min-width: 100vw;
 
+
 }
 .conteiner1{
-    margin-top: 2vh;
+    margin-top: 10vh;
     grid-row: 1;
     display: flex;
     width: 100%;
+    height: fit-content
 
 }
 .foto{
@@ -39,7 +41,14 @@
     width: 50%;
 }
 .conteiner2{
+    background-color: #16B88A;
     grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 
 
