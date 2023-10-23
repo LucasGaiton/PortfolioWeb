@@ -17,7 +17,8 @@
 
 }
 .conteiner1{
-    margin-top: 10vh;
+    padding: 60px 0px;
+    margin-top: 9vh;
     grid-row: 1;
     display: flex;
     width: 100%;
@@ -31,8 +32,6 @@
     justify-content: center;
 }
 .foto img{
-
-    margin-top: 20px;
     width: 50%;
     height: 472px;
     border-radius: 50%;
@@ -41,6 +40,7 @@
     width: 50%;
 }
 .conteiner2{
+    padding: 60px 0px;
     background-color: #16B88A;
     grid-row: 2;
     display: flex;
@@ -49,6 +49,13 @@
     width: 100%;
     text-align: center;
     justify-content: center;
+}
+.tools img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 160px;
+    width: 250px;
+    border-radius: 5%;
 }
 
 

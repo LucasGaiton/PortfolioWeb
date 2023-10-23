@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 
 //importamos vistas 
 import Home from "./views/Home/Home";
+import Proyects from "./views/Proyectos/Proyects";
 
 //importamos componentes 
 import Nav from "./components/Nav/Nav";
@@ -22,6 +23,7 @@ function App() {
       <Nav></Nav>
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/proyectos' element={<Proyects/>} />
       </Routes>
 
 
