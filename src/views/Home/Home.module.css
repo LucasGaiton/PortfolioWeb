@@ -6,40 +6,58 @@
 #108463
 #FFFFFF
 */
-.home{
+.home {
     /* background-size: cover; */
     display: grid;
-    grid-template-rows:auto auto;
-    background-color:#62C3A8 ;
+    grid-template-rows: auto auto auto;
+    background-color: #62C3A8;
     min-height: 100vh;
     min-width: 100vw;
 
 
+
 }
-.conteiner1{
+
+.conteiner1 {
     padding: 60px 0px;
+    padding-bottom: 0;
     margin-top: 9vh;
     grid-row: 1;
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: fit-content
+    /* height: fit-content */
 
 }
-.foto{
+
+.contenido {
+    display: flex;
+}
+
+.wave {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0px;
+}
+
+.foto {
     width: 46%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.foto img{
+
+.foto img {
     width: 50%;
     height: 472px;
     border-radius: 50%;
 }
-.datos{
+
+.datos {
     width: 50%;
 }
-.conteiner2{
+
+.conteiner2 {
     padding: 60px 0px;
     background-color: #16B88A;
     grid-row: 2;
@@ -50,7 +68,8 @@
     text-align: center;
     justify-content: center;
 }
-.tools img{
+
+.tools img {
     margin-left: 10px;
     margin-top: 10px;
     height: 160px;
@@ -58,4 +77,107 @@
     border-radius: 5%;
 }
 
+.conteiner3 {
+    display: flex;
+    flex-direction: column;
+    grid-row: 3;
+    background-color: #62C3A8;
 
+}
+
+.contenido3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.github_target {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #17171a;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.github_target img {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.github_target span {
+    color: #ffff;
+    font-family: Menlo, monospace;
+    /* Utiliza la fuente monoespaciada Menlo o una fuente similar */
+    font-size: 30px;
+    /* Tamaño de fuente */
+    letter-spacing: 0.05em;
+    /* Espaciado entre letras */
+    line-height: 1.5;
+    /* Altura de línea */
+    white-space: pre;
+}
+
+
+.linkedln_target {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #ffff;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.linkedln_target img {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.linkedln_target span {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:900;
+    font-size: 30px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    color: #2867B2;
+    /* Azul característico de LinkedIn */
+}
+
+.x_target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.x_target img {
+    height: 150px;
+    border-radius: 20px;
+}
+.x_target span {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:normal;
+    font-size: 30px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    color: #ffff;
+    /* Azul característico de LinkedIn */
+}
