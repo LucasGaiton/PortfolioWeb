@@ -6,7 +6,7 @@ export default function Home() {
             <div className={S.conteiner1}>
                 <div className={S.contenido}>
                     <div className={S.foto}>
-                        <img src={image} alt="" />
+                        <img className={S.tool_img} src={image} alt="" />
                     </div>
                     <div className={S.datos}>
                         <h1 className={S.titile}>Lucas Emanuel Gaiton</h1>
@@ -22,16 +22,56 @@ export default function Home() {
                     </h1>
                 </div>
                 <div className={S.tools}>
-                    <img src='/Imagenes/bootstrap.jpeg' alt="Mi Imagen" />
-                    <img src="/Imagenes/css.png" alt="" />
-                    <img src="/Imagenes/javaScript.png" alt="" />
-                    <img src="/Imagenes/html.png" alt="" />
-                    <img src="/Imagenes/nodeJs.png" alt="" />
-                    <img src="/Imagenes/postgres.png" alt="" />
-                    <img src="/Imagenes/React.png" alt="" />
-                    <img src="/Imagenes/redux.png" alt="" />
-                    <img src="/Imagenes/sql.png" alt="" />
-                    <img src="/Imagenes/talwind.png" alt="" />
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src='/Imagenes/bootstrap.jpeg' alt="Mi Imagen" />
+                        <h1 className={S.tool_name}>Bootstrap</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/css.png" alt="" />
+                        <h1 className={S.tool_name}>CSS</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/javaScript.png" alt=""/>
+                        <h1 className={S.tool_name}>JavaScript</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/html.png" alt="" />
+                        <h1 className={S.tool_name}>HTML</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/nodeJs.png" alt="" />
+                        <h1 className={S.tool_name}>NodeJs</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/postgres.png" alt="" />
+                        <h1 className={S.tool_name}>PostgresSQL</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/React.png" alt="" />
+                        <h1 className={S.tool_name}>React</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/redux.png" alt="" />
+                        <h1 className={S.tool_name}>Redux</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/sql.png" alt="" />
+                        <h1 className={S.tool_name}>SQL</h1>
+
+                    </div>
+                    <div className={S.tools_conteiner}>
+                        <img className={S.tool_img} src="/Imagenes/talwind.png" alt="" />
+                        <h1 className={S.tool_name}>Talwind Css</h1>
+
+                    </div>
 
 
                 </div>
@@ -39,7 +79,7 @@ export default function Home() {
 
 
                 <div className='carrusel'>
-                    {/* <img src={image2} alt="" /> */}
+                    {/* <img className={S.tool_img} src={image2} alt="" /> */}
                 </div>
             </div>
             <div className={S.conteiner3}>
@@ -52,15 +92,15 @@ export default function Home() {
                     </div>
                     <div className={S.redes}>
                         <div className={S.github_target}>
-                            <img src="/Imagenes/github.jpeg" alt="" /><span>LucasGaiton</span>
-                            
+                            <img  src="/Imagenes/github.jpeg" alt="" /><span>LucasGaiton</span>
+
                         </div>
                         <div className={S.linkedln_target}>
-                            <img src="/Imagenes/linkedlinwhite.png" alt="" /><span>Lucas Gaiton</span>
+                            <img  src="/Imagenes/linkedlinwhite.png" alt="" /><span>Lucas Gaiton</span>
 
                         </div>
                         <div className={S.x_target}>
-                            <img src="/Imagenes/x.png" alt="" /> <span>@Gaitonlucas7</span>
+                            <img  src="/Imagenes/x.png" alt="" /> <span>@Gaitonlucas7</span>
 
                         </div>
 
